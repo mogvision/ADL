@@ -6,7 +6,9 @@
 
 *[AiVi](https://www.uef.fi/en/unit/ai-virtanen-institute-for-molecular-sciences), UEF, Finland*
 
-[<img src="figs/Medical_denoising_brain.png" width="226px" height="226px"/>](https://imgsli.com/OTM3OTI) [<img src="figs/Medical_denoising_skin.png" width="226px" height="226px"/>](https://imgsli.com/OTM3OTA) [<img src="figs/Medical_denoising_EM.png" width="226px" height="226px"/>](https://imgsli.com/OTM3ODE)
+<img src="https://colab.research.google.com/assets/colab-badge.svg" alt="google colab logo"></a>  [![GitHub license](https://github.com/mogvision/ADL)](https://github.com/mogvision/ADL/LICENSE)
+
+[<img src="figs/Medical_denoising_brain.png" width="220px" height="220px"/>](https://imgsli.com/OTM3OTI) [<img src="figs/Medical_denoising_skin.png" width="220px" height="220px"/>](https://imgsli.com/OTM3OTA) [<img src="figs/Medical_denoising_EM.png" width="220px" height="220px"/>](https://imgsli.com/OTM3ODE) [<img src="figs/Medical_denoising_EM.png" width="220px" height="220px"/>](https://imgsli.com/OTM3ODE)
 _______
 This repository is the official implementation of ADL: Adversarial Distortion Learning for denoising medical and computer vision images (arxiv, supp, pretrained models, visual results). ADL achieves state-of-the-art performance in
 
@@ -17,7 +19,19 @@ JPEG compression artifact reduction
 
 
 
-sdsdsdsdsd <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="google colab logo"></a>
+
+Network architectures
+----------
+* [Efficient-UNet (Denoiser)](CITE PAPER HERE)
+
+  <img src="figs/Medical_denoising_EM.png" width="600px"/> 
+  
+  
+  
+  
+Good samples: https://github.com/facebookresearch/pytorch3d
+
+https://github.com/tensorflow/tensorflow
 
 
 - <img src="figs/palace.png" height="320px"/> <img src="figs/palace_HSCU.png" height="320px"/> 
@@ -83,20 +97,21 @@ DeepPod: a convolutional neural network based quantification of fruit number in 
 * ....
 
 
-# Citation
-Please cite this paper if you use this work in an academic context:
 
-```diff
-@article{hamidinekoo2020deeppod,
-  title={???},
-  author={???},
-  journal={?},
-  volume={?},
-  number={?},
-  pages={?},
-  year={?},
-  publisher={?}
+## Citation
+
+If you find ADL useful in your research, please cite our tech report:
+
+```bibtex
+@article{?,
+    author = { ? },
+    title = {?D},
+    journal = {arXiv:2007.08501},
+    year = {?},
 }
 ```
+
+
+Feel free to mail me for any doubts/query: morteza.ghahremani@uef.fi
 
 
