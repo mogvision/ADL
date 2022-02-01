@@ -6,7 +6,7 @@
 
 *[AiVi](https://www.uef.fi/en/unit/ai-virtanen-institute-for-molecular-sciences), UEF, Finland*
 
-[<img src="figs/Medical_denoising_brain.png" width="256px" height="226px"/>](https://imgsli.com/OTM3Nzk) [<img src="figs/Medical_denoising_skin.png" width="256px" height="256px"/>](https://imgsli.com/OTM3OTA) [<img src="figs/Medical_denoising_EM.png" width="256px" height="226px"/>](https://imgsli.com/OTM3Nzk)
+[<img src="figs/Medical_denoising_brain.png" width="226px" height="226px"/>](https://imgsli.com/OTM3OTI) [<img src="figs/Medical_denoising_skin.png" width="226px" height="226px"/>](https://imgsli.com/OTM3OTA) [<img src="figs/Medical_denoising_EM.png" width="226px" height="226px"/>](https://imgsli.com/OTM3ODE)
 _______
 This repository is the official implementation of ADL: Adversarial Distortion Learning for denoising medical and computer vision images (arxiv, supp, pretrained models, visual results). ADL achieves state-of-the-art performance in
 
