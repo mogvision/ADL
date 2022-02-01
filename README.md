@@ -1,14 +1,17 @@
 ## ADL: Adversarial Distortion Learning for Denoising and Distortion Removal
-[![download](https://github.com/mogvision/ADL/total.svg)](https://github.com/mogvision/ADL/releases) ![visitors](https://visitor-badge.glitch.me/badge?page_id=mogvision/ADL)  
-<!-- fg -->
+<!-- [![download](https://img.shields.io/github/downloads/mogvision/ADL/total.svg)](https://github.com/mogvision/ADL/releases) ![visitors](https://visitor-badge.glitch.me/badge?page_id=mogvision/ADL) -->
 
-[Kai Zhang](https://cszn.github.io/)
+<!--[Kai Zhang](https://cszn.github.io/) -->
+[Morteza Ghahremani](https://scholar.google.com/citations?user=yhXUlXsAAAAJ), [Mohammad Khateri](https://scholar.google.com/citations?user=???) 
 
-*[Computer Vision Lab](https://vision.ee.ethz.ch/the-institute.html), ETH Zurich, Switzerland*
-
+*[AiVi](https://www.uef.fi/en/unit/ai-virtanen-institute-for-molecular-sciences), UEF, Finland*
 _______
-- **_News (2021-12-23)_**: Our techniques are adopted in [https://www.amemori.ai/](https://www.amemori.ai/).
-- **_News (2021-12-23)_**: Our new work for practical image denoising.
+<!--- **_News (2021-12-23)_**: Our techniques are adopted in [https://www.amemori.ai/](https://www.amemori.ai/). -->
+<!--- **_News (2021-12-23)_**: Our new work for practical image denoising. -->
+
+[<img src="figs/Medical_denoising_brain.png" width="256px" height="256px"/>](https://imgsli.com/OTM3Nzk)
+
+
 
 - <img src="figs/palace.png" height="320px"/> <img src="figs/palace_HSCU.png" height="320px"/> 
 - [<img src="https://github.com/cszn/KAIR/raw/master/figs/denoising_02.png" height="256px"/>](https://imgsli.com/ODczMTc) 
@@ -22,7 +25,6 @@ _______
 
 # ADL: Adversarial Distortion Learning for Denoising and Distortion Removal
 
-Morteza ghahremani, Mohammad Khateri, [Alejandra Sierra](https://uefconnect.uef.fi/henkilo/alejandra.sierra-lopez/), [Jussi Tohka](https://uefconnect.uef.fi/henkilo/jussi.tohka/)
 
 [AiVi](https://www.uef.fi/en/unit/ai-virtanen-institute-for-molecular-sciences), UEF, Finland
 
