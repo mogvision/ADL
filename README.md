@@ -47,7 +47,7 @@ https://github.com/tensorflow/tensorflow
 
 ## Results on the [BSD68](https://paperswithcode.com/dataset/bsd) dataset for Additive white Gaussian noise:
 
-|  Noise Level (σ) | BM3D | WNNM | DnCNN | IRCNN | FFDNet | NLRN | FOCNet | MWCNN | DRUNet | SwinIR | ADL (ours) |
+|  σ | BM3D | WNNM | DnCNN | IRCNN | FFDNet | NLRN | FOCNet | MWCNN | DRUNet | SwinIR | ADL (ours) |
 |:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|
 | 15 | 31.08 | 31.37 | 31.73 | 31.63 | 31.63 | 31.88 |31.83 | 31.86 | 31.91 | 31.97 | **dfdf** :fire:|
 | 25 | 28.57 | 28.83 | 29.23 | 29.15 | 29.19 | 29.41 |29.38 | 29.41 | 29.48 | 29.50 | **dfdf** :fire:|
@@ -60,7 +60,7 @@ https://github.com/tensorflow/tensorflow
 
 ## Results on the [CBSD68](https://paperswithcode.com/dataset/cbsd68) dataset for Additive white Gaussian noise:
 
-| Noise Level (σ) | BM3D | WNNM  | EPLL | MLP |  CSF | TNRD  | DnCNN | FDnCNN | DRUNet | SwinIR | ADL (ours) |
+| σ | BM3D | WNNM  | EPLL | MLP |  CSF | TNRD  | DnCNN | FDnCNN | DRUNet | SwinIR | ADL (ours) |
 |:------:|:------:|:------:|:------:|:------:|:------:|:------:|:------:|:-------:|:------:|:------:|:------:|
 | 15 | 33.52 | 33.90 | 33.86 | 33.87 | 33.91 |  -    | 34.10 |  -     | 34.30 | 34.42 | **dfdf** :fire:|
 | 25 | 30.71 | 31.24 | 31.16 | 31.21 | 31.28 | 31.24 | 31.43 |  -     | 31.69 | 31.78 | **dfdf** :fire:|
@@ -74,6 +74,9 @@ link: https://paperswithcode.com/sota/color-image-denoising-on-cbsd68-sigma50
 | <img width="200" src="figs/ETH_LR.png"> | <img width="200" src="figs/ETH_BSRGAN.png"> | <img width="200" src="figs/ETH_realESRGAN.jpg">|<img width="200" src="figs/ETH_SwinIR.png">|<img width="200" src="figs/ETH_SwinIR-L.png">
 |<img width="200" src="figs/OST_009_crop_LR.png">|<img width="200" src="figs/OST_009_crop_BSRGAN.png">|<img width="200" src="figs/OST_009_crop_realESRGAN.png">|<img width="200" src="figs/OST_009_crop_SwinIR.png">|<img width="200" src="figs/OST_009_crop_SwinIR-L.png">|
 
+
+| Noise Level (σ) | BM3D |   DnCNN | FDnCNN | DRUNet | SwinIR | ADL (ours) |
+|:------:|:------:|:------:|:------:|:------:|:------:|:------:|:------:|:-------:|:------:|:------:|:------:|
 
 
 This repo contains training and testing codes for ADL
