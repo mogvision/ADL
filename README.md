@@ -8,7 +8,8 @@
 
 <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="google colab logo"></a>  [![GitHub license](https://github.com/mogvision/ADL)](https://github.com/mogvision/ADL/LICENSE) [GET IT]
 
-[<img src="figs/Medical_denoising_brain.png" width="220px" height="220px"/>](https://imgsli.com/OTM3OTI) [<img src="figs/Medical_denoising_skin.png" width="220px" height="220px"/>](https://imgsli.com/OTM3OTA) [<img src="figs/Medical_denoising_EM.png" width="220px" height="220px"/>](https://imgsli.com/OTM3ODE) [<img src="figs/Medical_denoising_EM.png" width="220px" height="220px"/>](https://imgsli.com/OTM3ODE)
+[<img src="figs/Medical_denoising_brain.png" width="220px" height="220px"/>](https://imgsli.com/OTM3OTI) [<img src="figs/Medical_denoising_skin.png" width="220px" height="220px"/>](https://imgsli.com/OTM3OTA) 
+[<img src="figs/Medical_denoising_EM.png" width="220px" height="220px"/>](https://imgsli.com/OTM3ODE) [<img src="figs/Medical_denoising_EM.png" width="220px" height="220px"/>](https://imgsli.com/OTM3ODE)
 _______
 This repository is the official implementation of ADL: Adversarial Distortion Learning for denoising medical and computer vision images (arxiv, supp, pretrained models, visual results). 
 
@@ -47,7 +48,7 @@ https://github.com/tensorflow/tensorflow
 ## Results on the [BSD68](https://paperswithcode.com/dataset/bsd) dataset for Additive white Gaussian noise:
 
 |  Noise Level (σ) | BM3D | WNNM | DnCNN | IRCNN | FFDNet | NLRN | FOCNet | MWCNN | DRUNet | SwinIR | ADL (ours) |
-|:------:|:------:|:------:|:------:|:------:|:------:|:------:|:------:|:------:|:------:|:------:|:------:|
+|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|
 | 15 | 31.08 | 31.37 | 31.73 | 31.63 | 31.63 | 31.88 |31.83 | 31.86 | 31.91 | 31.97 | **dfdf** :fire:|
 | 25 | 28.57 | 28.83 | 29.23 | 29.15 | 29.19 | 29.41 |29.38 | 29.41 | 29.48 | 29.50 | **dfdf** :fire:|
 | 50 | 25.60 | 25.87 | 26.23 | 26.19 | 26.29 | 26.47 |26.50 | 26.53 | 26.59 | 26.58 | dfdf :fire:|
