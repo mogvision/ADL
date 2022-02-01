@@ -5,12 +5,19 @@
 [Morteza Ghahremani](https://scholar.google.com/citations?user=yhXUlXsAAAAJ), [Mohammad Khateri](https://scholar.google.com/citations?user=???) 
 
 *[AiVi](https://www.uef.fi/en/unit/ai-virtanen-institute-for-molecular-sciences), UEF, Finland*
+
+[<img src="figs/Medical_denoising_brain.png" width="256px" height="226px"/>](https://imgsli.com/OTM3Nzk) [<img src="figs/Medical_denoising_brain.png" width="256px" height="226px"/>](https://imgsli.com/OTM3Nzk) [<img src="figs/Medical_denoising_EM.png" width="256px" height="226px"/>](https://imgsli.com/OTM3Nzk)
 _______
-<!--- **_News (2021-12-23)_**: Our techniques are adopted in [https://www.amemori.ai/](https://www.amemori.ai/). -->
-<!--- **_News (2021-12-23)_**: Our new work for practical image denoising. -->
+This repository is the official implementation of ADL: Adversarial Distortion Learning for denoising medical and computer vision images (arxiv, supp, pretrained models, visual results). ADL achieves state-of-the-art performance in
 
-[<img src="figs/Medical_denoising_brain.png" width="256px" height="256px"/>](https://imgsli.com/OTM3Nzk)
+grayscale/color image denoising in Computer Vision and Medical imaging
+bicubic/lighweight/real-world image SR
+JPEG compression artifact reduction
 
+
+
+
+sdsdsdsdsd <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="google colab logo"></a>
 
 
 - <img src="figs/palace.png" height="320px"/> <img src="figs/palace_HSCU.png" height="320px"/> 
@@ -21,7 +28,8 @@ _______
 - **_News (2021-09-07)_**: We upload [the training code](https://github.com/cszn/KAIR/blob/master/docs/README_SwinIR.md) of [SwinIR ![GitHub Stars](https://img.shields.io/github/stars/JingyunLiang/SwinIR?style=social)](https://github.com/JingyunLiang/SwinIR) and provide an [interactive online Colob demo for real-world image SR](https://colab.research.google.com/gist/JingyunLiang/a5e3e54bc9ef8d7bf594f6fee8208533/swinir-demo-on-real-world-image-sr.ipynb). Try to super-resolve your own images on Colab! <a href="https://colab.research.google.com/gist/JingyunLiang/a5e3e54bc9ef8d7bf594f6fee8208533/swinir-demo-on-real-world-image-sr.ipynb"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="google colab logo"></a>
 
 
-
+<!--- **_News (2021-12-23)_**: Our techniques are adopted in [https://www.amemori.ai/](https://www.amemori.ai/). <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< -->
+<!--- **_News (2021-12-23)_**: Our new work for practical image denoising. <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< -->
 
 # ADL: Adversarial Distortion Learning for Denoising and Distortion Removal
 
