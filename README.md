@@ -8,14 +8,16 @@
 
 <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="google colab logo"></a>  [![GitHub license](https://github.com/mogvision/ADL)](https://github.com/mogvision/ADL/LICENSE) [GET IT]
 
-[<img src="figs/Medical_denoising_brain.png" width="220px" height="220px"/>](https://imgsli.com/OTM3OTI) [<img src="figs/Medical_denoising_skin.png" width="220px" height="220px"/>](https://imgsli.com/OTM3OTA) 
-[<img src="figs/Medical_denoising_EM.png" width="220px" height="220px"/>](https://imgsli.com/OTM3ODE) [<img src="figs/Medical_denoising_EM.png" width="220px" height="220px"/>](https://imgsli.com/OTM3ODE)
+[<img src="figs/Medical_denoising_brain.png" width="200px" height="200px"/>](https://imgsli.com/OTM3OTI) [<img src="figs/Medical_denoising_skin.png" width="200px" height="200px"/>](https://imgsli.com/OTM3OTA) 
+[<img src="figs/Medical_denoising_EM.png" width="200px" height="200px"/>](https://imgsli.com/OTM3ODE) [<img src="figs/Medical_denoising_EM.png" width="200px" height="200px"/>](https://imgsli.com/OTM3ODE)
 _______
 This repository is the official implementation of ADL: Adversarial Distortion Learning for denoising medical and computer vision images (arxiv, supp, pretrained models, visual results). 
 
-[<img src="figs/tf.png" width="150"/> TensorFlow](https://github.com/mogvision/ADL/tree/main/TensorFlow)  [PyTorch <img src="figs/pytorch1.png" width="150"/>](https://github.com/mogvision/ADL/tree/main/PyTorch) 
+| [TensorFlow <img src="figs/tf.png" width="25"/>](https://github.com/mogvision/ADL/tree/main/TensorFlow) | [PyTorch  <img src="figs/pytorch.png" width="18"/>](https://github.com/mogvision/ADL/tree/main/PyTorch) |[MATLAB <img src="figs/matlablogo.png" width="40" />](https://github.com/mogvision/ADL/tree/main/MATLAB) | <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="google colab logo"></a> | 
+|:---: |:---: |:---: |:---: |
+<table align="center"></table>
 
-[<img src="figs/matlab.jpeg" width="120" height="60"/>](https://github.com/mogvision/ADL/tree/main/MATLAB) <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="google colab logo"></a>
+
 
 
 ADL achieves state-of-the-art Gaussian denoising performance in
