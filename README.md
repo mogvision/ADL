@@ -13,7 +13,11 @@
 _______
 This repository is the official implementation of ADL: Adversarial Distortion Learning for denoising medical and computer vision images (arxiv, supp, pretrained models, visual results). 
 
-[<img src="figs/tensorflow_icon.png" width="120" height="60"/>](https://github.com/mogvision/ADL/tree/main/TensorFlow) [<img src="figs/pytorch.PNG" width="120" height="60"/>](https://github.com/mogvision/ADL/tree/main/PyTorch) [<img src="figs/matlab.jpeg" width="120" height="60"/>](https://github.com/mogvision/ADL/tree/main/MATLAB) <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="google colab logo"></a>
+- [TensorFlow <img src="figs/tf.png" width="25"/>](https://github.com/mogvision/ADL/tree/main/TensorFlow) 
+
+- [PyTorch <img src="figs/pytorch.png" width="25"/>](https://github.com/mogvision/ADL/tree/main/PyTorch) 
+
+[<img src="figs/matlab.jpeg" width="120" height="60"/>](https://github.com/mogvision/ADL/tree/main/MATLAB) <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="google colab logo"></a>
 
 
 ADL achieves state-of-the-art Gaussian denoising performance in
