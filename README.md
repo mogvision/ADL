@@ -17,9 +17,7 @@ This repository is the official implementation of ADL: Adversarial Distortion Le
 |:---: |:---: |:---: |:---: |
 <table align="center"></table>
 
-
-
-
+\
 ADL achieves state-of-the-art Gaussian denoising performance in
 
 - grayscale/color image denoising in Computer Vision and Medical imaging :fire::fire::fire:
@@ -49,7 +47,7 @@ https://github.com/tensorflow/tensorflow
 
 # Denoising results on [BSD68](https://paperswithcode.com/dataset/bsd) and [CBSD68](https://paperswithcode.com/dataset/cbsd68):
 
-## Results on the [BSD68](https://paperswithcode.com/dataset/bsd) dataset for Additive white Gaussian noise:
+* ## Results on the [BSD68](https://paperswithcode.com/dataset/bsd) dataset for Additive white Gaussian noise:
 
 |  σ    | BM3D| WNNM | DnCNN  | NLRN | FOCNet | MWCNN | DRUNet | SwinIR | ADL (ours) |
 |:-----:|:---:|:----:|:------:|:----:|:------:|:-----:|:-----:|:-----:|:---------:|
@@ -58,11 +56,15 @@ https://github.com/tensorflow/tensorflow
 | 50 | 25.60 | 25.87 | 26.23 | 26.47  | 26.50 | 26.53 | 26.59 | 26.58 | :fire: **27.23** :fire:|
 
 - [x] Here we reported the results of the techniques reported by the authors.
-- [x] Our ADL was trained on the [Flickr2K](https://github.com/LimBee/NTIRE2017) dataset only!
+- [x] Our ADL was trained on the grey [Flickr2K](https://github.com/LimBee/NTIRE2017) dataset only!
+
+| CBSD68 (img_id: test015)| Noisy (σ=25) | SwinIR  | ADL (ours) |
+|    :---      |     :---:    | :-----:|  :-----: | 
+| <img width="200" src="figs/gt-test015.png"> | <img width="200" src="figs/noisy-test015.png"> | <img width="200" src="figs/test005_SwinIR.png">|<img width="200" src="figs/test005_ADL.png">|<img width="200" src="figs/ETH_SwinIR-L.png"> |
 
 
 
-## Results on the [CBSD68](https://paperswithcode.com/dataset/cbsd68) dataset for Additive white Gaussian noise:
+* ## Results on the [CBSD68](https://paperswithcode.com/dataset/cbsd68) dataset for Additive white Gaussian noise:
 
 | σ | BM3D | WNNM  | EPLL | MLP |  CSF | TNRD  | DnCNN  | DRUNet | SwinIR | ADL (ours) |
 |:------:|:------:|:------:|:------:|:------:|:------:|:------:|:------:|:-------:|:------:|:------:|
@@ -70,12 +72,13 @@ https://github.com/tensorflow/tensorflow
 | 25 | 30.71 | 31.24 | 31.16 | 31.21 | 31.28 | 31.24 | 31.43 | 31.69 | 31.78 | :fire: **dfdf** :fire:|
 | 50 | 27.38 | 27.95 | 27.86 | 27.96 | 28.05 | 28.06 | 28.16 | 28.51 | 28.56 | :fire: **dfdf** :fire:|
 
-
-link: https://paperswithcode.com/sota/color-image-denoising-on-cbsd68-sigma50 
-
 | CBSD68 (img_id: test015)| Noisy (σ=25) | SwinIR  | ADL (ours) |
 |    :---      |     :---:    | :-----:|  :-----: | 
-| <img width="200" src="figs/gt-test015.png"> | <img width="200" src="figs/noisy-test015.png"> | <img width="200" src="figs/test005_SwinIR.png">|<img width="200" src="figs/test005_ADL.png">|<img width="200" src="figs/ETH_SwinIR-L.png"> |
+| <img width="200" src="figs/.png"> | <img width="200" src="figs/.png"> | <img width="200" src="figs/.png">|<img width="200" src="figs/.png">|<img width="200" src="figs/ETH_SwinIR-L.png"> |
+
+
+
+link: https://paperswithcode.com/sota/color-image-denoising-on-cbsd68-sigma50 
 
 
 
