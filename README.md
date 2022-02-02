@@ -20,8 +20,8 @@ This repository is the official implementation of ADL: Adversarial Distortion Le
 \
 ADL achieves state-of-the-art Gaussian denoising performance in
 
-- grayscale/color image denoising in Computer Vision and Medical imaging :fire::fire::fire:
-- JPEG compression artifact reduction :fire::fire::fire: ????????????
+- grayscale/color image denoising in Medical imaging :fire::fire::fire:
+- grayscale/color image denoising in Computer Vision images :fire::fire::fire:
 
 
 
