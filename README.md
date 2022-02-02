@@ -60,11 +60,11 @@ https://github.com/tensorflow/tensorflow
 
 ## Results on the [CBSD68](https://paperswithcode.com/dataset/cbsd68) dataset for Additive white Gaussian noise:
 
-| σ | BM3D | WNNM  | EPLL | MLP |  CSF | TNRD  | DnCNN | FDnCNN | DRUNet | SwinIR | ADL (ours) |
-|:------:|:------:|:------:|:------:|:------:|:------:|:------:|:------:|:-------:|:------:|:------:|:------:|
-| 15 | 33.52 | 33.90 | 33.86 | 33.87 | 33.91 |  -    | 34.10 |  -     | 34.30 | 34.42 | **dfdf** :fire:|
-| 25 | 30.71 | 31.24 | 31.16 | 31.21 | 31.28 | 31.24 | 31.43 |  -     | 31.69 | 31.78 | **dfdf** :fire:|
-| 50 | 27.38 | 27.95 | 27.86 | 27.96 | 28.05 | 28.06 | 28.16 | 28.31  | 28.51 | 28.56 | **dfdf** :fire:|
+| σ | BM3D | WNNM  | EPLL | MLP |  CSF | TNRD  | DnCNN  | DRUNet | SwinIR | ADL (ours) |
+|:------:|:------:|:------:|:------:|:------:|:------:|:------:|:------:|:-------:|:------:|:------:|
+| 15 | 33.52 | 33.90 | 33.86 | 33.87 | 33.91 |  -    | 34.10 | 34.30 | 34.42 | :fire: **dfdf** :fire:|
+| 25 | 30.71 | 31.24 | 31.16 | 31.21 | 31.28 | 31.24 | 31.43 | 31.69 | 31.78 | :fire: **dfdf** :fire:|
+| 50 | 27.38 | 27.95 | 27.86 | 27.96 | 28.05 | 28.06 | 28.16 | 28.51 | 28.56 | :fire: **dfdf** :fire:|
 
 
 link: https://paperswithcode.com/sota/color-image-denoising-on-cbsd68-sigma50 
