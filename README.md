@@ -49,9 +49,9 @@ https://github.com/tensorflow/tensorflow
 
 |  σ    | BM3D| WNNM | DnCNN  | NLRN | FOCNet | MWCNN | DRUNet | SwinIR | ADL (ours) |
 |:-----:|:---:|:----:|:------:|:----:|:------:|:-----:|:------:|:------:|:----------:|
-| 15 | 31.08 | 31.37 | 31.73  | 31.88  | 31.83 | 31.86 | 31.91 | 31.97 | :fire::fire:**33.55** :fire::fire:|
-| 25 | 28.57 | 28.83 | 29.23  | 29.41  | 29.38 | 29.41 | 29.48 | 29.50 | :fire::fire:**31.23** :fire::fire:|
-| 50 | 25.60 | 25.87 | 26.23  | 26.47  | 26.50 | 26.53 | 26.59 | 26.58 | :fire::fire:**28.11** :fire::fire:|
+| 15 | 31.08 | 31.37 | 31.73  | 31.88  | 31.83 | 31.86 | 31.91 | 31.97 | :fire::fire:** 33.55** :fire::fire:|
+| 25 | 28.57 | 28.83 | 29.23  | 29.41  | 29.38 | 29.41 | 29.48 | 29.50 | :fire::fire:** 31.23** :fire::fire:|
+| 50 | 25.60 | 25.87 | 26.23  | 26.47  | 26.50 | 26.53 | 26.59 | 26.58 | :fire::fire:** 28.11** :fire::fire:|
 
 - [x] Here we reported the results of the techniques reported by the authors.
 - [x] Our ADL was trained on the [Flickr2K](https://github.com/LimBee/NTIRE2017) dataset only!
