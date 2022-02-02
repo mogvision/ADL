@@ -26,26 +26,16 @@ ADL achieves state-of-the-art Gaussian denoising performance in
 
 
 
-
-
 Network architectures
 ----------
 * [Efficient-UNet (Denoiser)](CITE PAPER HERE)
+  <img src="figs/Denoiser.PNG" width="800px"/> 
 
-  <img src="figs/Medical_denoising_EM.png" width="600px"/> 
-  
-  
-  
-  
-Good samples: https://github.com/facebookresearch/pytorch3d
-
-https://github.com/tensorflow/tensorflow
-<!---- **_News (2021-09-09)_**: Add [main_download_pretrained_models.py](https://github.com/cszn/KAIR/blob/master/main_download_pretrained_models.py) to download pre-trained models.. <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< -->
-<!--- - **_News (2021-09-08)_**: Add [matlab code](https://github.com/cszn/KAIR/tree/master/matlab) to zoom local part of an image for the purpose of comparison between different results.. <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< -->
-<!--- **_News (2021-12-23)_**: Our techniques are adopted in [https://www.amemori.ai/](https://www.amemori.ai/). <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< -->
-<!--- **_News (2021-12-23)_**: Our new work for practical image denoising. <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< -->
-
-# Denoising results on [BSD68](https://paperswithcode.com/dataset/bsd) and [CBSD68](https://paperswithcode.com/dataset/cbsd68):
+* [Conv-Net (Discriminator)](CITE PAPER HERE)
+  <img src="figs/discriminator.PNG" width="800px"/> 
+_______
+ 
+# Denoising Results on [BSD68](https://paperswithcode.com/dataset/bsd) and [CBSD68](https://paperswithcode.com/dataset/cbsd68):
 
 * ## Results on the [BSD68](https://paperswithcode.com/dataset/bsd) dataset for Additive white Gaussian noise:
 
@@ -78,9 +68,7 @@ https://github.com/tensorflow/tensorflow
 
 
 
-link: https://paperswithcode.com/sota/color-image-denoising-on-cbsd68-sigma50 
-
-# Denoising results on medical images:
+# Denoising Results on Medical Images:
 
 <details>
 <summary> MRI-Brain (click here)</summary>
@@ -139,6 +127,17 @@ color: SOTA: https://paperswithcode.com/sota/color-image-denoising-on-cbsd68-sig
 
 
 Upload models here..........
+
+
+Good samples: https://github.com/facebookresearch/pytorch3d
+
+https://github.com/tensorflow/tensorflow
+<!---- **_News (2021-09-09)_**: Add [main_download_pretrained_models.py](https://github.com/cszn/KAIR/blob/master/main_download_pretrained_models.py) to download pre-trained models.. <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< -->
+<!--- - **_News (2021-09-08)_**: Add [matlab code](https://github.com/cszn/KAIR/tree/master/matlab) to zoom local part of an image for the purpose of comparison between different results.. <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< -->
+<!--- **_News (2021-12-23)_**: Our techniques are adopted in [https://www.amemori.ai/](https://www.amemori.ai/). <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< -->
+<!--- **_News (2021-12-23)_**: Our new work for practical image denoising. <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< -->
+
+
 
 _______
 ## Citation
