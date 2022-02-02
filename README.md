@@ -80,11 +80,35 @@ https://github.com/tensorflow/tensorflow
 
 link: https://paperswithcode.com/sota/color-image-denoising-on-cbsd68-sigma50 
 
+# Denoising results on medical images:
 
+<details>
+<summary> MRI-Brain (click here)</summary>
+<p align="center">
+  <img width="900" src="figs/tf.png">
+</p>
+</details>
 
-| Noise Level (σ) | BM3D |   DnCNN | FDnCNN | DRUNet | SwinIR | ADL (ours) |
-|:------:|:------:|:------:|:------:|:------:|:------:|:------:|:------:|:-------:|:------:|:------:|:------:|
+<details>
+<summary> Photometry-Skin (click here)</summary>
+<p align="center">
+  <img width="900" src="figs/tf.png">
+</p>
+</details>
 
+<details>
+<summary> X-ray-Chest (click here)</summary>
+<p align="center">
+  <img width="900" src="figs/tf.png">
+</p>
+</details>
+
+<details>
+<summary> EM-Brain (click here)</summary>
+<p align="center">
+  <img width="900" src="figs/tf.png">
+</p>
+</details>
 
 This repo contains training and testing codes for ADL
 
@@ -98,14 +122,6 @@ bicubic/lighweight/real-world image SR
 JPEG compression artifact reduction
 
 
-
-<details>
-<summary>Classical Image Super-Resolution (click me)</summary>
-<p align="center">
-  <img width="900" src="figs/?.png">
-  <img width="900" src="figs/?.png">
-</p>
-</details>
 
 https://jingyunliang.github.io/????????????????
 
