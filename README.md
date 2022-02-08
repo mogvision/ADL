@@ -2,7 +2,9 @@
 <!-- [![download](https://img.shields.io/github/downloads/mogvision/ADL/total.svg)](https://github.com/mogvision/ADL/releases) ![visitors](https://visitor-badge.glitch.me/badge?page_id=mogvision/ADL) -->
 
 <!--[Kai Zhang](https://cszn.github.io/) -->
-[Morteza Ghahremani](https://scholar.google.com/citations?user=yhXUlXsAAAAJ), [Mohammad Khateri](https://scholar.google.com/citations?user=???) 
+[Morteza Ghahremani](https://scholar.google.com/citations?user=yhXUlXsAAAAJ), [Mohammad Khateri](https://scholar.google.com/citations?user=???), [Alejandra Sierra](https://scholar.google.fi/citations?user=cxP2f78AAAAJ&hl=en), [Jussi Tohka](https://scholar.google.com/citations?user=StmRhaUAAAAJ&hl=en)
+
+
 
 *[AiVi](https://www.uef.fi/en/unit/ai-virtanen-institute-for-molecular-sciences), UEF, Finland*
 
