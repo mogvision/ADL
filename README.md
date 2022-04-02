@@ -16,8 +16,7 @@
 [<img src="figs/brainADL.gif" width="180px" height="180px"/>](https://imgsli.com/OTM3OTI)
 [<img src="figs/skinADL.gif" width="180px" height="180px"/>](https://imgsli.com/OTM3OTA)
 [<img src="figs/emADL.gif" width="180px" height="180px"/>](https://imgsli.com/OTM3ODE)
-[<img src="figs/cbsd68ADL.gif" width="250px" height="180px"/>](https://imgsli.com/OTM3ODE)
-
+[<img src="figs/cbsd68ADL.gif" width="250px" height="180px"/>](https://imgsli.com/MTAyNDQ4)
 
 <!--
 [<img src="figs/Medical_denoising_brain.png" width="200px" height="200px"/>](https://imgsli.com/OTM3OTI) 
