@@ -43,12 +43,12 @@ ADL achieves state-of-the-art Gaussian denoising performance in
 
 Network architectures
 ----------
-* [Efficient-UNet (Denoiser)]
-  <img src="figs/Denoiser.PNG" width="700px"/> 
+* Efficient-UNet (Denoiser)
+<img src="figs/Denoiser.PNG" width="700px"/> 
 
-* [Conv-Net (Discriminator)](CITE PAPER HERE)
-  <img src="figs/discriminator.PNG" width="700px"/> 
-_______
+* Conv-Net (Discriminator)
+<img src="figs/discriminator.PNG" width="700px"/> 
+______________
  
 # Denoising Results on [BSD68](https://paperswithcode.com/dataset/bsd) and [CBSD68](https://paperswithcode.com/dataset/cbsd68):
 
