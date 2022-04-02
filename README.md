@@ -13,10 +13,10 @@
 
 
 
-[<img src="figs/brainADL.gif" width="200px" height="200px"/>](https://imgsli.com/OTM3OTI)
-[<img src="figs/skinADL.gif" width="200px" height="200px"/>](https://imgsli.com/OTM3OTA)
-[<img src="figs/emADL.gif" width="200px" height="200px"/>](https://imgsli.com/OTM3ODE)
-[<img src="figs/cbsd68ADL.gif" height="200px"/>](https://imgsli.com/OTM3ODE)
+[<img src="figs/brainADL.gif" width="180px" height="180px"/>](https://imgsli.com/OTM3OTI)
+[<img src="figs/skinADL.gif" width="180px" height="180px"/>](https://imgsli.com/OTM3OTA)
+[<img src="figs/emADL.gif" width="180px" height="180px"/>](https://imgsli.com/OTM3ODE)
+[<img src="figs/cbsd68ADL.gif" height="180px"/>](https://imgsli.com/OTM3ODE)
 
 
 <!--
