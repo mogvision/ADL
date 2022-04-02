@@ -16,7 +16,7 @@
 [<img src="figs/brainADL.gif" width="180px" height="180px"/>](https://imgsli.com/OTM3OTI)
 [<img src="figs/skinADL.gif" width="180px" height="180px"/>](https://imgsli.com/OTM3OTA)
 [<img src="figs/emADL.gif" width="180px" height="180px"/>](https://imgsli.com/OTM3ODE)
-[<img src="figs/cbsd68ADL.gif" width="240px" height="180px"/>](https://imgsli.com/OTM3ODE)
+[<img src="figs/cbsd68ADL.gif" width="250px" height="180px"/>](https://imgsli.com/OTM3ODE)
 
 
 <!--
@@ -78,7 +78,7 @@ ______________
 | 25 | 30.71 | 31.24 | 31.16 | 31.21 | 31.28 | 31.24 | 31.43 | 31.69 | 31.78 | :fire: **32.18** :fire:|
 | 50 | 27.38 | 27.95 | 27.86 | 27.96 | 28.05 | 28.06 | 28.16 | 28.51 | 28.56 | :fire: **29.02** :fire:|
 
-| CBSD68 (img_id: test015)| Noisy (σ=25) | SwinIR  | ADL (ours) |
+| CBSD68 (img_id: test015)| Noisy (σ=50) | SwinIR  | ADL (ours) |
 |    :---      |     :---:    | :-----:|  :-----: | 
 | <img width="200" src="figs/gt-test015c.png"> | <img width="200" src="figs/noisy-test015c.png"> | <img width="200" src="figs/test005_SwinIRc.png">|<img width="200" src="figs/test005_ADLc.png">
 
