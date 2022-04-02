@@ -10,6 +10,17 @@
 
 <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="google colab logo"></a>  [![GitHub license](https://github.com/mogvision/ADL)](https://github.com/mogvision/ADL/LICENSE) [GET IT]
 
+
+
+<p align="left">
+  <a href="https://https://github.com/mogvision/ADL">
+    [<img src="figs/brainADL.gif" width="200px" height="200px"/>/>](https://imgsli.com/OTM3OTI)
+    [<img src="figs/brainADL.gif" width="200px" height="200px"/>/>](https://imgsli.com/OTM3ODE)
+    [<img src="figs/brainADL.gif" width="200px" height="200px"/>/>](https://imgsli.com/OTM3OTI)
+  </a>
+</p>
+
+
 [<img src="figs/Medical_denoising_brain.png" width="200px" height="200px"/>](https://imgsli.com/OTM3OTI) [<img src="figs/Medical_denoising_skin.png" width="200px" height="200px"/>](https://imgsli.com/OTM3OTA) 
 [<img src="figs/Medical_denoising_EM.png" width="200px" height="200px"/>](https://imgsli.com/OTM3ODE) [<img src="figs/Medical_denoising_EM.png" width="200px" height="200px"/>](https://imgsli.com/OTM3ODE)
 _______
