@@ -12,17 +12,19 @@
 
 
 
-<p align="left">
-  <a href="https://https://github.com/mogvision/ADL">
-    [<img src="figs/brainADL.gif" width="200px" height="200px"/>/>](https://imgsli.com/OTM3OTI)
-    [<img src="figs/brainADL.gif" width="200px" height="200px"/>/>](https://imgsli.com/OTM3ODE)
-    [<img src="figs/brainADL.gif" width="200px" height="200px"/>/>](https://imgsli.com/OTM3OTI)
-  </a>
-</p>
+
+[<img src="figs/brainADL.gif" width="200px" height="200px"/>](https://imgsli.com/OTM3OTI)
+[<img src="figs/skinADL.gif" width="200px" height="200px"/>](https://imgsli.com/OTM3OTA)
+[<img src="figs/skinADL.gif" width="200px" height="200px"/>](https://imgsli.com/OTM3ODE)
+[<img src="figs/skinADL.gif" width="200px" height="200px"/>](https://imgsli.com/OTM3ODE)
 
 
-[<img src="figs/Medical_denoising_brain.png" width="200px" height="200px"/>](https://imgsli.com/OTM3OTI) [<img src="figs/Medical_denoising_skin.png" width="200px" height="200px"/>](https://imgsli.com/OTM3OTA) 
-[<img src="figs/Medical_denoising_EM.png" width="200px" height="200px"/>](https://imgsli.com/OTM3ODE) [<img src="figs/Medical_denoising_EM.png" width="200px" height="200px"/>](https://imgsli.com/OTM3ODE)
+<!--
+[<img src="figs/Medical_denoising_brain.png" width="200px" height="200px"/>](https://imgsli.com/OTM3OTI) 
+[<img src="figs/Medical_denoising_skin.png" width="200px" height="200px"/>](https://imgsli.com/OTM3OTA) 
+[<img src="figs/Medical_denoising_EM.png" width="200px" height="200px"/>](https://imgsli.com/OTM3ODE) 
+[<img src="figs/Medical_denoising_EM.png" width="200px" height="200px"/>](https://imgsli.com/OTM3ODE)
+-->
 _______
 This repository is the official implementation of ADL: Adversarial Distortion Learning for denoising medical and computer vision images (arxiv, supp, pretrained models, visual results). 
 
