@@ -65,7 +65,7 @@ _______
 
 | CBSD68 (img_id: test015)| Noisy (σ=25) | SwinIR  | ADL (ours) |
 |    :---      |     :---:    | :-----:|  :-----: | 
-| <img width="200" src="figs/gt-test015.png"> | <img width="200" src="figs/noisy-test015.png"> | <img width="200" src="figs/test005_SwinIR.png">|<img width="200" src="figs/test005_ADL.png">|<img width="200" src="figs/ETH_SwinIR-L.png"> |
+| <img width="200" src="figs/gt-test015.png"> | <img width="200" src="figs/noisy-test015.png"> | <img width="200" src="figs/test005_SwinIR.png">|<img width="200" src="figs/test005_ADL.png">
 
 
 
@@ -80,8 +80,7 @@ _______
 
 | CBSD68 (img_id: test015)| Noisy (σ=25) | SwinIR  | ADL (ours) |
 |    :---      |     :---:    | :-----:|  :-----: | 
-| <img width="200" src="figs/.png"> | <img width="200" src="figs/.png"> | <img width="200" src="figs/.png">|<img width="200" src="figs/.png">|<img width="200" src="figs/ETH_SwinIR-L.png"> |
-
+| <img width="200" src="figs/.png"> | <img width="200" src="figs/.png"> | <img width="200" src="figs/test005_SwinIRc.png">|<img width="200" src="figs/test005_ADLc.png">
 
 
 # Denoising Results on Medical Images:
