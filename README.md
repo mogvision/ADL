@@ -15,8 +15,8 @@
 
 [<img src="figs/brainADL.gif" width="200px" height="200px"/>](https://imgsli.com/OTM3OTI)
 [<img src="figs/skinADL.gif" width="200px" height="200px"/>](https://imgsli.com/OTM3OTA)
-[<img src="figs/skinADL.gif" width="200px" height="200px"/>](https://imgsli.com/OTM3ODE)
-[<img src="figs/skinADL.gif" width="200px" height="200px"/>](https://imgsli.com/OTM3ODE)
+[<img src="figs/sstmADL.gif" width="200px" height="200px"/>](https://imgsli.com/OTM3ODE)
+[<img src="figs/cbsd68ADL.gif" width="200px" height="200px"/>](https://imgsli.com/OTM3ODE)
 
 
 <!--
