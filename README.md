@@ -80,7 +80,7 @@ ______________
 
 | CBSD68 (img_id: test015)| Noisy (σ=25) | SwinIR  | ADL (ours) |
 |    :---      |     :---:    | :-----:|  :-----: | 
-| <img width="200" src="figs/.png"> | <img width="200" src="figs/.png"> | <img width="200" src="figs/test005_SwinIRc.png">|<img width="200" src="figs/test005_ADLc.png">
+| <img width="200" src="figs/gt-test015c.png"> | <img width="200" src="figs/noisy-test015c.png"> | <img width="200" src="figs/test005_SwinIRc.png">|<img width="200" src="figs/test005_ADLc.png">
 
 
 # Denoising Results on Medical Images:
