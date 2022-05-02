@@ -19,7 +19,7 @@
 [<img src="figs/cbsd68ADL.gif" width="250px" height="180px"/>](https://imgsli.com/MTAyNDQ4)
 
 _______
-This repository is the official implementation of ADL: Adversarial Distortion Learning for denoising medical and computer vision images ([arxiv] (https://arxiv.org/abs/2204.14100), supp, pretrained models, visual results). 
+This repository is the official implementation of ADL: Adversarial Distortion Learning for denoising medical and computer vision images ([arxiv](https://arxiv.org/abs/2204.14100), supp, pretrained models, visual results). 
 
 | [TensorFlow <img src="figs/tf.png" width="25"/>](https://github.com/mogvision/ADL/tree/main/TensorFlow) | [PyTorch  <img src="figs/pytorch.png" width="18"/>](https://github.com/mogvision/ADL/tree/main/PyTorch) | <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="google colab logo"></a> | 
 |:---: |:---: |:---: |
@@ -37,10 +37,10 @@ ADL achieves state-of-the-art Gaussian denoising performance in
 
 Network architectures
 ----------
-* Efficient-UNet (Denoiser)
+* Proposed Efficient-UNet (Denoiser)
 <img src="figs/Denoiser.PNG" width="780px"/> 
 
-* Conv-Net (Discriminator)
+* Proposed Efficient-UNet (Discriminator)
 <img src="figs/discriminator.PNG" width="780px"/> 
 ______________
  
@@ -80,78 +80,18 @@ ______________
 # Denoising Results on Medical Images:
 
 <details>
-<summary> MRI-Brain (click here)</summary>
+<summary> 2D (click here)</summary>
 <p align="center">
   <img width="900" src="figs/tf.png">
 </p>
 </details>
 
 <details>
-<summary> Photometry-Skin (click here)</summary>
+<summary> 3D (click here)</summary>
 <p align="center">
   <img width="900" src="figs/tf.png">
 </p>
 </details>
-
-<details>
-<summary> X-ray-Chest (click here)</summary>
-<p align="center">
-  <img width="900" src="figs/tf.png">
-</p>
-</details>
-
-<details>
-<summary> EM-Brain (click here)</summary>
-<p align="center">
-  <img width="900" src="figs/tf.png">
-</p>
-</details>
-
-This repo contains training and testing codes for ADL
-
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/googlecolab/colabtools/blob/master/notebooks/colab-github-demo.ipynb)
-
-
-This repository is the official implementation of ADL: Adversarial Distortion Learning for denoising medical and computer vision images (arxiv, supp, pretrained models, visual results). ADL achieves state-of-the-art performance in
-
-grayscale/color image denoising in Computer Vision and Medical imaging
-bicubic/lighweight/real-world image SR
-JPEG compression artifact reduction
-
-
-Colab->ADLdemo.ipynb   <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
-
-https://jingyunliang.github.io/????????????????
-
-
-<a href="url"><img src="https://github.com/mogvision/ADL/tree/main/figs/tensorflow_icon.png" align="left" height="48" width="48" ></a>
-
-# Requirements
-
-* ....
-
-
-
-
-
-
-
-MORE results: https://arxiv.org/pdf/2108.10257.pdf
-
-color: SOTA: https://paperswithcode.com/sota/color-image-denoising-on-cbsd68-sigma50
-
-
-
-Upload models here..........
-
-
-Good samples: https://github.com/facebookresearch/pytorch3d
-
-https://github.com/tensorflow/tensorflow
-<!---- **_News (2021-09-09)_**: Add [main_download_pretrained_models.py](https://github.com/cszn/KAIR/blob/master/main_download_pretrained_models.py) to download pre-trained models.. <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< -->
-<!--- - **_News (2021-09-08)_**: Add [matlab code](https://github.com/cszn/KAIR/tree/master/matlab) to zoom local part of an image for the purpose of comparison between different results.. <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< -->
-<!--- **_News (2021-12-23)_**: Our techniques are adopted in [https://www.amemori.ai/](https://www.amemori.ai/). <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< -->
-<!--- **_News (2021-12-23)_**: Our new work for practical image denoising. <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< -->
 
 
 
@@ -161,15 +101,10 @@ _______
 If you find ADL useful in your research, please cite our tech report:
 
 ```bibtex
-@article{?,
-    author = { ? },
-    title = {?D},
-    journal = {arXiv:2007.08501},
-    year = {?},
+@article{ADL2022,
+    author = {Morteza Ghahremani, Mohammad Khateri, Alejandra Sierra, Jussi Tohka},
+    title = {Adversarial Distortion Learning for Medical Image Denoising},
+    journal = {arXiv:2204.14100},
+    year = {2022},
 }
 ```
-
-_______
-Feel free to mail me for any doubts/query: morteza.ghahremani@uef.fi
-
-
