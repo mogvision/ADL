@@ -50,7 +50,7 @@ python3 train.py --DENOISER Efficient_Unet \
 ```
 **Data preparation**: If your directory has bad/unreadable images, remove those before the training. To do this, set --DEBUG 'True', and run the command above. It will give you a list of unreadable images. After getting the list, remove them and start training by setting --DEBUG 'False'.
 
-**Models**: The denoiser and discriminator models will be stored at ```configs/ADL_train.json```
+**Models**: The denoiser and discriminator models will be stored at ```${EXPERIMENT}/ADL/logs```
 
 ### Test
 Configure ```configs/ADL_test.json``` according to your tasks, then run the following:
