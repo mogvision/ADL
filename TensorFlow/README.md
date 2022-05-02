@@ -58,7 +58,7 @@ Configure ```configs/ADL_test.json``` according to your tasks, then run the foll
 ```shell
 EXPERIMENT="testRGB"
 CHANNELS_NUM=3
-python ./Inference.py --test-dirs 'path/to/test/folder'  \
+python3 inference.py --test-dirs 'path/to/test/folder'  \
 		--num-channels ${CHANNELS} \
 		--EXPERIMENT ${EXPERIMENT} \
 		--json-file configs/ADL_test.json
