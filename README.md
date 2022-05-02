@@ -10,9 +10,7 @@
 
 *[AiVi](https://www.uef.fi/en/unit/ai-virtanen-institute-for-molecular-sciences), UEF, Finland*
 
-<img src="https://colab.research.google.com/assets/colab-badge.svg" alt="google colab logo"></a>  [![GitHub license](https://github.com/mogvision/ADL)](https://github.com/mogvision/ADL/LICENSE) [GET IT]
-
-
+<img src="https://colab.research.google.com/assets/colab-badge.svg" alt="google colab logo"></a> 
 
 
 [<img src="figs/brainADL.gif" width="180px" height="180px"/>](https://imgsli.com/OTM3OTI)
@@ -20,16 +18,10 @@
 [<img src="figs/emADL.gif" width="180px" height="180px"/>](https://imgsli.com/OTM3ODE)
 [<img src="figs/cbsd68ADL.gif" width="250px" height="180px"/>](https://imgsli.com/MTAyNDQ4)
 
-<!--
-[<img src="figs/Medical_denoising_brain.png" width="200px" height="200px"/>](https://imgsli.com/OTM3OTI) 
-[<img src="figs/Medical_denoising_skin.png" width="200px" height="200px"/>](https://imgsli.com/OTM3OTA) 
-[<img src="figs/Medical_denoising_EM.png" width="200px" height="200px"/>](https://imgsli.com/OTM3ODE) 
-[<img src="figs/Medical_denoising_EM.png" width="200px" height="200px"/>](https://imgsli.com/OTM3ODE)
--->
 _______
-This repository is the official implementation of ADL: Adversarial Distortion Learning for denoising medical and computer vision images (arxiv, supp, pretrained models, visual results). 
+This repository is the official implementation of ADL: Adversarial Distortion Learning for denoising medical and computer vision images ([arxiv] (https://arxiv.org/abs/2204.14100), supp, pretrained models, visual results). 
 
-| [TensorFlow <img src="figs/tf.png" width="25"/>](https://github.com/mogvision/ADL/tree/main/TensorFlow) | [PyTorch  <img src="figs/pytorch.png" width="18"/>](https://github.com/mogvision/ADL/tree/main/PyTorch) |[MATLAB <img src="figs/matlablogo.png" width="40" />](https://github.com/mogvision/ADL/tree/main/MATLAB) | <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="google colab logo"></a> | 
+| [TensorFlow <img src="figs/tf.png" width="25"/>](https://github.com/mogvision/ADL/tree/main/TensorFlow) | [PyTorch  <img src="figs/pytorch.png" width="18"/>](https://github.com/mogvision/ADL/tree/main/PyTorch) | <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="google colab logo"></a> | 
 |:---: |:---: |:---: |:---: |
 <table align="center"></table>
 
@@ -38,7 +30,8 @@ ADL achieves state-of-the-art Gaussian denoising performance in
 
 - grayscale/color image denoising in Medical imaging :fire::fire::fire:
 - grayscale/color image denoising in Computer Vision images :fire::fire::fire:
-- -JPEG compression artifact reduction >>> SWINIR
+- JPEG compression artifact reduction
+- grayscale/color deblurring
 
 
 
