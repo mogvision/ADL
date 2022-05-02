@@ -1,9 +1,10 @@
-<img src="https://www.tensorflow.org/images/tf_logo_horizontal.png" width="800px" height="200px"/>
+<p align="center">
+	<img src="https://www.tensorflow.org/images/tf_logo_horizontal.png" width="700px" height="200px"/>
+</p>
 
+This repository is the official TensorFlow implementation of ADL. We tested the code in TF2.5 and TF2.8 environments. 
 
-
-
-## Environemnt Preparation & Installation 
+## Environment Preparation & Installation 
 
 To install your environment (here, called ADL_env), run the following:
 
@@ -11,7 +12,7 @@ To install your environment (here, called ADL_env), run the following:
 # Notes:
 # - The `--upgrade` flag ensures you'll get the latest version.
 # - The `--user` flag ensures the packages are installed to your user directory
-#   rather than the system directory.
+#   rather than the system directory.
 # - TensorFlow 2 packages require a pip >= 19.0
 python -m pip install --upgrade --user pip
 cd ~/
@@ -25,7 +26,7 @@ python3 -m pip install --upgrade -r requirements.txt
 ### Train
 
 Configure ```configs/ADL_train.json``` according to your tasks:
-* Denoising ->  "adding_noise": true/false
+* Denoising ->  "adding_noise": true/false
 * Deblurring -> "adding_blur": true/false
 * Compression -> "compression": true/false
 
@@ -37,19 +38,19 @@ source ~/ADL_env/bin/activate
 EXPERIMENT="testRGB"
 CHANNELS_NUM=3 # grey->1
 python3 train.py --DENOISER Efficient_Unet \
-                --EXPERIMENT ${EXPERIMENT} \
-                --json-file configs/ADL_train.json \
-                --channels-num ${CHANNELS_NUM} \
-                --train-dirs 'path/to/train/folder1', \
-                            'path/to/train/folder2' \
-                --test-dirs 'path/to/test/folder1', \
-                            'path/to/test/folder2' \
-                --DEBUG 'False'
+                --EXPERIMENT ${EXPERIMENT} \
+                --json-file configs/ADL_train.json \
+                --channels-num ${CHANNELS_NUM} \
+                --train-dirs 'path/to/train/folder1', \
+                            'path/to/train/folder2' \
+                --test-dirs 'path/to/test/folder1', \
+                            'path/to/test/folder2' \
+                --DEBUG 'False'
 
 ```
-**Data preparation**: If your directory has bad/unreadable images, remove those before the training. To do this, set --DEBUG 'True', and run the command above. It will give you the list of unreadable images. After getting the list, remove them and start training with setting --DEBUG 'False'.
+**Data preparation**: If your directory has bad/unreadable images, remove those before the training. To do this, set --DEBUG 'True', and run the command above. It will give you a list of unreadable images. After getting the list, remove them and start training by setting --DEBUG 'False'.
 
-**Models**: The denosier and discriminator mdoels will be stored at ```configs/ADL_train.json```
+**Models**: The denoiser and discriminator models will be stored at ```configs/ADL_train.json```
 
 ### Test
 Configure ```configs/ADL_test.json``` according to your tasks, then run the following:
@@ -58,7 +59,7 @@ Configure ```configs/ADL_test.json``` according to your tasks, then run the foll
 EXPERIMENT="testRGB"
 CHANNELS_NUM=3
 python ./Inference.py --MODEL ${EXPERIMENT}/ADL/checkpoints \
-					--test-dirs 'path/to/test/folder'  \
+					--test-dirs 'path/to/test/folder'  \
 					--num-channels ${CHANNELS} \
 					--EXPERIMENT ${EXPERIMENT} \
 					--json-file configs/ADL_test.json
@@ -66,7 +67,7 @@ python ./Inference.py --MODEL ${EXPERIMENT}/ADL/checkpoints \
 
 ### Visualization 
 
-The simplest way for visulasiation is to use tensorboard in Colab. Open a notebook at Colab. Mount your drive:
+The simplest way for visualization is to use tensorboard in Colab. Open a notebook at Colab. Mount your drive:
 ```shell
 !pip install import_ipynb
 from google.colab import drive
@@ -88,3 +89,16 @@ notebook.list() # View open TensorBoard instances
 %tensorboard --logdir "DATA_dir/images"
 ```
 
+_______
+## Citation
+
+If you find ADL useful in your research, please cite our tech report:
+
+```bibtex
+@article{ADL2022,
+    author = {Morteza Ghahremani, Mohammad Khateri, Alejandra Sierra, Jussi Tohka},
+    title = {Adversarial Distortion Learning for Medical Image Denoising},
+    journal = {arXiv:2204.14100},
+    year = {2022},
+}
+```
