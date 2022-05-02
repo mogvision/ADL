@@ -25,9 +25,9 @@ python3 -m pip install --upgrade -r requirements.txt
 ### Train
 
 Configure ```configs/ADL_train.json``` according to your tasks:
-* Denoising ->  "adding_noise": true
-* Deblurring -> "adding_blur": false,
-* Compression -> "compression": false,
+* Denoising ->  "adding_noise": true/false
+* Deblurring -> "adding_blur": true/false
+* Compression -> "compression": true/false
 
 After configuration, run the following for training RGB data:
 
