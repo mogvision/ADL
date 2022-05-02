@@ -40,9 +40,9 @@ python3 train.py --DENOISER Efficient_Unet \
                 --EXPERIMENT ${EXPERIMENT} \
                 --json-file configs/ADL_train.json \
                 --channels-num ${CHANNELS_NUM} \
-                --train-dir 'path/to/train/folder1', \
+                --train-dirs 'path/to/train/folder1', \
                             'path/to/train/folder2' \
-                --test-dir 'path/to/test/folder1', \
+                --test-dirs 'path/to/test/folder1', \
                             'path/to/test/folder2' \
                 --DEBUG 'False'
 
