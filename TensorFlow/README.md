@@ -59,3 +59,6 @@ To use a pre-2.0 version of TensorFlow, run:
 python -m pip install --upgrade --user "tensorflow<2" "tensorflow_probability<0.9"
 ```
 
+### Visualization 
+
+tesnorborad
