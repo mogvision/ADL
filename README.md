@@ -79,16 +79,14 @@ ______________
 
 # Denoising Results on Medical Images:
 
+<img width="700" src="figs/adl_medical.png">
+
 <details>
 <summary> 2D (click here)</summary>
 <p align="center">
   <img width="900" src="figs/2Dmedical.png">
 </p>
 </details>
-
-<img width="200" src="figs/gt-test015c.png">
-
-
 
 <details>
 <summary> 3D MRI Brain-BrainWeb (click here)</summary>
