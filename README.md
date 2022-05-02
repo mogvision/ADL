@@ -82,15 +82,26 @@ ______________
 <details>
 <summary> 2D (click here)</summary>
 <p align="center">
-  <img width="900" src="figs/tf.png">
+  <img width="900" src="figs/2Dmedical.png">
 </p>
 </details>
 
+<img width="200" src="figs/gt-test015c.png">
+
+
+
 <details>
-<summary> 3D (click here)</summary>
+<summary> 3D MRI Brain-BrainWeb (click here)</summary>
 <p align="center">
-  <img width="900" src="figs/tf.png">
-</p>
+  <img width="500" src="figs/3Dbrain.png">
+x</p>
+</details>
+
+<details>
+<summary> 3D MRI knee-fastMRI (click here)</summary>
+<p align="center">
+  <img width="400" src="figs/3Dknee.png">
+x</p>
 </details>
 
 
