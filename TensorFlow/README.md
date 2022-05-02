@@ -58,11 +58,10 @@ Configure ```configs/ADL_test.json``` according to your tasks, then run the foll
 ```shell
 EXPERIMENT="testRGB"
 CHANNELS_NUM=3
-python ./Inference.py --MODEL ${EXPERIMENT}/ADL/checkpointss \
-					--test-dirs 'path/to/test/folder'  \
-					--num-channels ${CHANNELS} \
-					--EXPERIMENT ${EXPERIMENT} \
-					--json-file configs/ADL_test.json
+python ./Inference.py --test-dirs 'path/to/test/folder'  \
+		--num-channels ${CHANNELS} \
+		--EXPERIMENT ${EXPERIMENT} \
+		--json-file configs/ADL_test.json
 ```
 
 ### Visualization 
