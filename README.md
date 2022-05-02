@@ -85,6 +85,7 @@ ______________
 <summary> 2D (click here)</summary>
 <p align="center">
   <img width="900" src="figs/2Dmedical.png">
+   <img width="900" src="figs/2d.png">
 </p>
 </details>
 
@@ -92,13 +93,13 @@ ______________
 <summary> 3D MRI Brain-BrainWeb (click here)</summary>
 <p align="center">
   <img width="500" src="figs/3Dbrain.png">
-x</p>
+  <img width="900" src="figs/mribrain.png">
+</p>
 </details>
 
 <details>
 <summary> 3D MRI knee-fastMRI (click here)</summary>
 <p align="center">
-  <img width="400" src="figs/3Dknee.png">
 x</p>
 </details>
 
