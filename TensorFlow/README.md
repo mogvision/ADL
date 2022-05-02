@@ -52,13 +52,39 @@ python3 train.py --DENOISER Efficient_Unet \
 **Models**: The denosier and discriminator mdoels will be stored at ```configs/ADL_train.json```
 
 ### Test
-locate youe 
-To use a pre-2.0 version of TensorFlow, run:
+Configure ```configs/ADL_test.json``` according to your tasks, then run the following:
 
 ```shell
-python -m pip install --upgrade --user "tensorflow<2" "tensorflow_probability<0.9"
+EXPERIMENT="testRGB"
+CHANNELS_NUM=3
+python ./Inference.py --MODEL ${EXPERIMENT}/ADL/checkpoints \
+					--test-dirs 'path/to/test/folder'  \
+					--num-channels ${CHANNELS} \
+					--EXPERIMENT ${EXPERIMENT} \
+					--json-file configs/ADL_test.json
 ```
 
 ### Visualization 
 
-tesnorborad
+The simplest way for visulasiation is to use tensorboard in Colab. Open a notebook at Colab. Mount your drive:
+```shell
+!pip install import_ipynb
+from google.colab import drive
+import os
+drive.mount('/content/drive')
+DATA_dir = '/content/drive/YourFolder'
+os.chdir(Root)
+```
+Locate the ```${EXPERIMENT}/ADL/logs``` in ```DATA_dir```, then run the following:
+```shell
+%load_ext tensorboard
+from tensorboard import notebook
+notebook.list() # View open TensorBoard instances
+
+# Numerical results
+%tensorboard --logdir "DATA_dir/numerical"
+
+# stored images during training
+%tensorboard --logdir "DATA_dir/images"
+```
+
