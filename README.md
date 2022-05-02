@@ -30,8 +30,8 @@ ADL achieves state-of-the-art Gaussian denoising performance in
 
 - grayscale/color image denoising in Medical imaging :fire::fire::fire:
 - grayscale/color image denoising in Computer Vision images :fire::fire::fire:
-- JPEG compression artifact reduction
-- grayscale/color deblurring
+- JPEG compression artifact reduction :fire::fire::fire:
+- grayscale/color deblurring :fire::fire::fire:
 
 
 
@@ -78,9 +78,9 @@ ______________
 
 
 # Denoising Results on Medical Images:
-
+<p align="center">
 <img width="700" src="figs/adl_medical.png">
-
+</p>
 <details>
 <summary> 2D (click here)</summary>
 <p align="center">
@@ -100,7 +100,8 @@ ______________
 <details>
 <summary> 3D MRI knee-fastMRI (click here)</summary>
 <p align="center">
-x</p>
+<img width="500" src="figs/3Dknee.png">
+ </p>
 </details>
 
 
