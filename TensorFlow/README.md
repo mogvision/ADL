@@ -2,7 +2,7 @@
 	<img src="https://www.tensorflow.org/images/tf_logo_horizontal.png" width="700px" height="200px"/>
 </p>
 
-This repository is the official TensorFlow implementation of ADL. We tested the code in TF2.5 and TF2.8 environments. 
+This repository is the official TensorFlow implementation of ADL. We tested the code in the TF2.5.0 environment. 
 
 ## Environment Preparation & Installation 
 
