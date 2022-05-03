@@ -14,7 +14,7 @@ To install your environment (here, called ADL_env), run the following:
 # - The `--user` flag ensures the packages are installed to your user directory
 #   rather than the system directory.
 # - TensorFlow 2 packages require a pip >= 19.0
-python -m pip install --upgrade --user pip
+python3 -m pip install --upgrade --user pip
 cd ~/
 virtualenv -p python3 ADL_env
 source ~/ADL_env/bin/activate
