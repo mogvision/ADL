@@ -1,0 +1,7 @@
+tensorflow-gpu==2.5.0
+tensorflow_addons
+Pillow
+scikit-image
+pandas
+jsons
+model_profiler

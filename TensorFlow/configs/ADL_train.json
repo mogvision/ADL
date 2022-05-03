@@ -1,0 +1,80 @@
+{
+    "model": "ADL",
+    "data":{
+        "H": 512,
+        "W": 512,
+        "batch_size_per_gpu": 5,
+        "adding_noise": true,
+        "adding_blur": false,
+        "compression": false,
+        "gt_noisy": false,
+
+        "train_std_interval": [0.0, 55.0],
+        "validation_std_interval": [49.0, 51.0],
+
+        "train_blur_interval": [1, 15], 
+        "train_compres_interval":[1.0, 70.0], 
+
+        "test_stdVec": [50.0],
+        "test_blurVec":  [11],
+        "test_compresVec": [10.0],
+        "shuffle": 1024,
+        "localhost":null,
+
+        "train_ds": 
+        {
+            "img_types": ["png", "jpg", "jpeg"],
+            "num_sel_imgs": -1, 
+            "train_val_ratio": 0.95,
+            "num_val_max": 256,
+            "repeats": 10000
+        },
+
+        "test_ds": 
+        {
+            "img_types": ["png", "jpg", "jpeg"],
+            "num_sel_imgs":-1
+        }
+    },
+
+    "ADL": {
+        "epochs": 5,
+        "print_model": false,
+        "lr": 5e-5
+    },
+
+    "denoiser": {
+        "model": "Efficient_Unet",
+        "print_model": false,
+        "epochs": 5,
+        "lr": 1e-4,
+        "lr_scheduler": {
+            "type": "ReduceLROnPlateau",
+            "kwargs": {
+                "monitor": "VAL/psnr",
+                "min_lr": 1e-8,
+                "factor": 0.8,
+                "patience": 15,
+                "mode": "auto"
+            }
+        }
+    },
+
+    "discriminator": {
+        "model": "Efficient_Unet_disc",
+        "print_model": false,
+        "epochs": 5,
+        "lr": 1e-4,
+        "label_noisy_probability":0.1,
+        "lr_scheduler": {
+            "type": "ReduceLROnPlateau",
+            "kwargs": {
+                "monitor": "VAL/psnr",
+                "min_lr": 5e-7,
+                "factor": 0.8,
+                "patience": 15,
+                "mode": "auto"
+            }
+        }
+    }
+}
