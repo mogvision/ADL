@@ -75,7 +75,7 @@ drive.mount('/content/drive')
 DATA_dir = '/content/drive/YourFolder'
 os.chdir(Root)
 ```
-Locate the ```${EXPERIMENT}/ADL/logs``` in ```DATA_dir```, then run the following:
+Locate ```${EXPERIMENT}/ADL/logs``` in ```DATA_dir```, then run the following:
 ```shell
 %load_ext tensorboard
 from tensorboard import notebook
