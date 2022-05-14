@@ -1,0 +1,64 @@
+{
+    "model": "ADL",
+    "data":{
+        "H": 512,
+        "W": 512,
+        "batch_size": 4,
+        "task_mode": "DEN",
+        "train_std_interval": [0.0, 55.0],
+        "test_stdVec": [50.0],
+        "shuffle": 1024,
+        "random_seed": 0,
+        "pin_memory": true,
+        "drop_last": true,
+        "img_types": ["png", "jpg", "jpeg", "bmp"],
+        "train_valid_ratio": 0.95,
+        "num_valid_max": 256,
+        "localhost":null
+    },
+
+
+    "ADL": {
+        "epochs": 50,
+        "print_model": false,
+        "lr": 5e-5,
+        "optimizer":"Adam",
+        "lr_scheduler": {
+            "type": "MultiStepLR",
+            "kwargs": {
+                "gamma": 0.8
+            }
+        }
+    },
+
+
+    "denoiser": {
+        "model": "Efficient_Unet",
+        "print_model": false,
+        "epochs": 50,
+        "lr": 1e-4,
+        "optimizer":"Adam",
+        "lr_scheduler": {
+            "type": "MultiStepLR",
+            "kwargs": {
+                "gamma": 0.8
+            }
+        }
+    },
+
+
+    "discriminator": {
+        "model": "Efficient_Unet_disc",
+        "print_model": false,
+        "epochs": 50,
+        "lr": 1e-4,
+        "optimizer":"Adam",
+        "negative_slope":0.1,
+        "lr_scheduler": {
+            "type": "MultiStepLR",
+            "kwargs": {
+                "gamma": 0.8
+            }
+        }
+    }
+}

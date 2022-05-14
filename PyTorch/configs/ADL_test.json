@@ -1,0 +1,14 @@
+{
+    "model": "ADL",
+    "data":{
+        "task_mode":"DEN",
+        "H": -1,
+        "W": -1,
+        "batch_size_per_gpu": 1,
+        "adding_noise": true,
+        "test_stdVec": [10.0],
+        "localhost":null,
+        "img_types": ["png", "jpg", "jpeg", "bmp"],
+        "num_sel_imgs":-1
+    }
+}
