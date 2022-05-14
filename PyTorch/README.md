@@ -34,10 +34,6 @@ source ~/ADL_env/bin/activate
 
 EXPERIMENT="jsut4testRGB"
 CHANNELS_NUM=3 # grey->1
-
-EXPERIMENT="rgb"
-CHANNELS_NUM=3
-
 python3 train.py  --DENOISER efficient_Unet \
                   --num-workers 6\
 		  --EXPERIMENT ${EXPERIMENT} \
@@ -46,7 +42,7 @@ python3 train.py  --DENOISER efficient_Unet \
 		  --train-dirs 'path/to/train/folder1', \
                        'path/to/train/folder2' \
 		  --test-dirs 'path/to/test/folder1', \
-                        'path/to/test/folder2' \
+                       'path/to/test/folder2' \
 		  --distributed
 ```
 
@@ -54,11 +50,13 @@ python3 train.py  --DENOISER efficient_Unet \
 
 **Models**: The denoiser and discriminator models will be stored at ```${EXPERIMENT}/ADL/checkpoints```
 
+**Log files**: The numerical and image-bse logs will be stored at ```${EXPERIMENT}/ADL/logs```
+
 ### Test
 Configure ```configs/ADL_test.json``` according to your tasks, then run the following:
 
 ```shell
-EXPERIMENT="testRGB"
+EXPERIMENT="jsut4testRGB"
 CHANNELS_NUM=3
 python3 inference.py 	--test-dirs 'path/to/test/folder' \
           --EXPERIMENT ${EXPERIMENT} \
