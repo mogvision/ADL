@@ -27,7 +27,7 @@ python3 -m pip install --upgrade -r requirements.txt
 Configure ```configs/ADL_train.json``` according to your tasks:
 * Denoising ->  "task_mode": "DEN"
 
-If you use multiple-gpus add ```--distributed``` to argparse. After configuration, run the following for training RGB data:
+If you use multiple gpus, add ```--distributed``` to argparse. After configuration, run the following for training RGB data:
 
 ```shell
 source ~/ADL_env/bin/activate
@@ -39,15 +39,15 @@ EXPERIMENT="rgb"
 CHANNELS_NUM=3
 
 python3 train.py  --DENOISER efficient_Unet \
-					--num-workers 6\
-					--EXPERIMENT ${EXPERIMENT} \
-					--json-file configs/ADL_train.json \
-					--CHANNELS-NUM ${CHANNELS_NUM} \
-          --train-dirs 'path/to/train/folder1', \
+                  --num-workers 6\
+		  --EXPERIMENT ${EXPERIMENT} \
+		  --json-file configs/ADL_train.json \
+		  --CHANNELS-NUM ${CHANNELS_NUM} \
+		  --train-dirs 'path/to/train/folder1', \
                        'path/to/train/folder2' \
-           --test-dirs 'path/to/test/folder1', \
+		  --test-dirs 'path/to/test/folder1', \
                         'path/to/test/folder2' \
-					--distributed
+		  --distributed
 ```
 
 ** The code has three main steps: 1- denoiser warmup , 2- discriminator warmup, 3- ADL. You could find it as ```PHASE``` in ```train.py```.
@@ -62,9 +62,9 @@ EXPERIMENT="testRGB"
 CHANNELS_NUM=3
 python3 inference.py 	--test-dirs 'path/to/test/folder' \
           --EXPERIMENT ${EXPERIMENT} \
-          --num-workers 1\
-					--json-file configs/ADL_test.json \
-					--CHANNELS-NUM ${NUM_CHANNELS}
+          --num-workers 1 \
+	  --json-file configs/ADL_test.json \
+	  --CHANNELS-NUM ${NUM_CHANNELS}
 ```
 
 
