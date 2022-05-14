@@ -1,3 +1,14 @@
+[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/adversarial-distortion-learning-for-medical/image-denoising-on-bsd68-sigma15)](https://paperswithcode.com/sota/image-denoising-on-bsd68-sigma15?p=adversarial-distortion-learning-for-medical)
+[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/adversarial-distortion-learning-for-medical/image-denoising-on-bsd68-sigma25)](https://paperswithcode.com/sota/image-denoising-on-bsd68-sigma25?p=adversarial-distortion-learning-for-medical)
+[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/adversarial-distortion-learning-for-medical/image-denoising-on-bsd68-sigma50)](https://paperswithcode.com/sota/image-denoising-on-bsd68-sigma50?p=adversarial-distortion-learning-for-medical)
+[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/adversarial-distortion-learning-for-medical/image-denoising-on-cbsd68-sigma15)](https://paperswithcode.com/sota/image-denoising-on-cbsd68-sigma15?p=adversarial-distortion-learning-for-medical)
+[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/adversarial-distortion-learning-for-medical/image-denoising-on-cbsd68-sigma25)](https://paperswithcode.com/sota/image-denoising-on-cbsd68-sigma25?p=adversarial-distortion-learning-for-medical)
+[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/adversarial-distortion-learning-for-medical/image-denoising-on-cbsd68-sigma35)](https://paperswithcode.com/sota/image-denoising-on-cbsd68-sigma35?p=adversarial-distortion-learning-for-medical)
+[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/adversarial-distortion-learning-for-medical/image-denoising-on-cbsd68-sigma50)](https://paperswithcode.com/sota/image-denoising-on-cbsd68-sigma50?p=adversarial-distortion-learning-for-medical)
+
+
+
+
 <!--  https://paperswithcode.com/task/color-image-denoising -->
 
 ## ADL: Adversarial Distortion Learning for Denoising and Distortion Removal
