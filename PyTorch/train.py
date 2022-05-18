@@ -275,7 +275,6 @@ if __name__== '__main__':
 
 	eval_params_denoiser = {
 		'psnr': MetricEval.psnr,
-		'ssim': MetricEval.ssim,
 	}
 
 
