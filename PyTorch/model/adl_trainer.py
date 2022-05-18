@@ -194,10 +194,10 @@ class ADL_Trainer(object):
 class ADL_Trainer_module(trainer.Trainer):
     def __init__(self,
                 rank:Union[str, int],
-                model_denoiser:DistributedDataParallel,,
-                model_disc:DistributedDataParallel,,
+                model_denoiser:DistributedDataParallel,
+                model_disc:DistributedDataParallel,
                 device:Union[str, int],
-                lr:optim.lr_scheduler,,
+                lr:optim.lr_scheduler,
                 writer_numerical:SummaryWriter,
                 writer_imgs:SummaryWriter,
                 checkpoints_path:str,
