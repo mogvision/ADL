@@ -18,8 +18,6 @@
 
 *[AiVi](https://www.uef.fi/en/unit/ai-virtanen-institute-for-molecular-sciences), UEF, Finland*
 
-<img src="https://colab.research.google.com/assets/colab-badge.svg" alt="google colab logo"></a> 
-
 
 [<img src="figs/brainADL.gif" width="180px" height="180px"/>](https://imgsli.com/OTM3OTI)
 [<img src="figs/skinADL.gif" width="180px" height="180px"/>](https://imgsli.com/OTM3OTA)
@@ -29,7 +27,7 @@
 _______
 This repository is the official implementation of ADL: Adversarial Distortion Learning for denoising medical and computer vision images ([arxiv](https://arxiv.org/abs/2204.14100), supp, pretrained models, visual results). 
 
-| [TensorFlow <img src="figs/tf.png" width="25"/>](https://github.com/mogvision/ADL/tree/main/TensorFlow) | [PyTorch  <img src="figs/pytorch.png" width="18"/>](https://github.com/mogvision/ADL/tree/main/PyTorch) | <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="google colab logo"></a> | 
+| [TensorFlow <img src="figs/tf.png" width="25"/>](https://github.com/mogvision/ADL/tree/main/TensorFlow) | [PyTorch  <img src="figs/pytorch.png" width="18"/>](https://github.com/mogvision/ADL/tree/main/PyTorch) |  [<img src="https://colab.research.google.com/assets/colab-badge.svg" alt="google colab logo"></a> ](https://github.com/mogvision/ADL/blob/main/ADLdemo.ipynb) | 
 |:---: |:---: |:---: |
 <table align="center"></table>
 
